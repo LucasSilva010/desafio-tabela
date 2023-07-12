@@ -24,7 +24,7 @@
           <th>E-mail</th>
           <th>Função</th>
         </tr>
-        <!-- Inclusão e exibiçãO dos dados dos usuários na tabela -->
+        <!-- Inclusão e exibiçãO dos dados dos usuários na tabela. -->
         <?php foreach ($usuarios as $usuario) : ?>
           <tr>
             <td><?= $usuario['nome'] ?></td>
