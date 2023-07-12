@@ -16,6 +16,7 @@
 <div class="container ">
   <div class="row ">
     <div class="col-lg-12 align-items-center">
+      <!-- Inclusão dos dados do arquivo data.php -->
     <?php include './data.php' ?>
       <table class="table table-bordered table-striped table-hover">
         <tr>
@@ -23,6 +24,7 @@
           <th>E-mail</th>
           <th>Função</th>
         </tr>
+        <!-- Inclusão e exibiçãO dos dados dos usuários na tabela -->
         <?php foreach ($usuarios as $usuario) : ?>
           <tr>
             <td><?= $usuario['nome'] ?></td>
